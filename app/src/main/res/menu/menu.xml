@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/admin"
+        android:title="Admin" />
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+    <item
+        android:id="@+id/support"
+        android:title="Support" />
+    <item
+        android:id="@+id/rate"
+        android:title="Rate" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/insert"
+        android:title="Loan Applications" />
+    <item
+        android:id="@+id/logout_menu"
+        android:title="Logout" />
+</menu>

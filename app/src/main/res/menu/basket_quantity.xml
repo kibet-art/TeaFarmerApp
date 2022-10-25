@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tenkg"
+        android:title="10kg" />
+    <item
+        android:id="@+id/twentykg"
+        android:title="20Kg" />
+    <item
+        android:id="@+id/thirtykg"
+        android:title="30Kg" />
+    <item
+        android:id="@+id/fourtykg"
+        android:title="40kg" />
+    <item
+        android:id="@+id/fiftykg"
+        android:title="50Kg" />
+    <item
+        android:id="@+id/sixtykg"
+        android:title="g0Kg" />
+</menu>

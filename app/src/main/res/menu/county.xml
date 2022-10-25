@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Kericho"
+        android:title="Baringo" />
+    <item
+        android:id="@+id/ainamoi"
+        android:title="Ainamoi" />
+    <item
+        android:id="@+id/belgut"
+        android:title="Belgut" />
+    <item
+        android:id="@+id/buret"
+        android:title="Buret" />
+    <item
+        android:id="@+id/kipkelion"
+        android:title="Kipkelion East" />
+    <item
+        android:id="@+id/kipkelion_west"
+        android:title="Kipkelion West" />
+    <item
+        android:id="@+id/sigowet"
+        android:title="Singowet-Sion" />
+</menu>

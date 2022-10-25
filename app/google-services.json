@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236550576024",
+    "project_id": "teafarmerapp",
+    "storage_bucket": "teafarmerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236550576024:android:e1243e2cb1c62abbc1bded",
+        "android_client_info": {
+          "package_name": "com.carlosketer.teafarmerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236550576024-fs4pk95ql8vcd88fgpnkdupk6a1v8dil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_8glBHM0RNh8ZY_Vqv-UMpHLAPG2fZ7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236550576024-fs4pk95ql8vcd88fgpnkdupk6a1v8dil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

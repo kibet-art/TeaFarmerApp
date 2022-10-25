@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoanApplicationActivity">
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_background"
+        android:ems="10"
+        android:hint="Enter your location"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/sacco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_background"
+        android:ems="10"
+        android:hint="Click to select your sacco"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saccoBtn" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_background"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:hint="Account No or Mpesa No"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amount" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_background"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:hint="Enter amount in Ksh"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Submit"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/sacco"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="@+id/sacco"
+        app:layout_constraintTop_toBottomOf="@+id/location" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_background"
+        android:ems="10"
+        android:hint="Enter Your names"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sacco" />
+
+    <Button
+        android:id="@+id/saccoBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Click to select your sacco"
+        app:layout_constraintEnd_toEndOf="@+id/phone"
+        app:layout_constraintStart_toStartOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
